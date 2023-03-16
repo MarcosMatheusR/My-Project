@@ -34,6 +34,10 @@ b{
     font-size: 70px;
     color: #7f00ff;
 }
+z{
+    font-size: 70px;
+    color: #7f00ff; 
+}
 .navItems{
     display: flex;
     
@@ -195,4 +199,18 @@ button:hover{
         left: 51%;
         width: 155%;
     }
+}
+buttonlink{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #08a9ff;
+    padding: 8px 14px;
+    margin: 20px 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 15px 10px rgba(0,0,0,0.4);
 }
